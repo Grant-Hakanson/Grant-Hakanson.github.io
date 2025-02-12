@@ -14,11 +14,6 @@
             background-color: #f0f0f0;
             color: black;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: left;
-        }
         h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.5em;
@@ -43,20 +38,21 @@
             padding: 15px;
             border-radius: 10px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .iframe-container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0px auto; /* Reduced spacing */
-            background-color: white;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
         }
         iframe {
             width: 100%;
             max-width: 1200px;
             height: 747px;
             border: none;
+            margin-top: -30px; /* Further reduced spacing */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .github-link {
             text-align: center;
@@ -71,33 +67,29 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Grant Hakanson Portfolio Snapshots</h1>
-        <p>
-            I’m a data professional with a background in analytics, business intelligence, and process improvement. Throughout my career, I’ve worked across healthcare, telecom, and SaaS, using SQL, Power BI, and Python to enhance reporting, automate workflows, and improve data accessibility.
-        </p>
-        <p>
-            I thrive in collaborative environments where I can solve complex problems and make data more actionable. At Altruis, I streamlined reporting by converting manual Excel reports into Power BI dashboards, cutting workflow time by 50% and improving data transparency. At Communications Data Group, I worked with SQL scripts to update internal billing systems, strengthening my technical skills in database management and data integration. During my time at VividCharts, I partnered with cross-functional teams and Fortune 500 clients to create IT ticketing reports, sharpening my ability to communicate technical insights in a clear and meaningful way.
-        </p>
-        <p>
-            I hold an MBA in Data Analytics from LSUS, which has helped me combine technical expertise with a strategic business perspective. I’m detail-oriented and always looking for ways to improve processes, but I also value collaboration, clear communication, and continuous learning. I’m passionate about making data more accessible and impactful, and I take pride in bridging the gap between technical solutions and business needs.
-        </p>
-        
-        <div class="iframe-container">
-            <iframe title="Crime Metrics Dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiZTA5ODg2ODUtNTI3Ny00ZDU3LWFiYzgtNzhhNzhkM2RlZTU2IiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
-        </div>
-        
-        <div class="iframe-container">
-            <iframe title="LA Crime Data Explorer" src="https://app.powerbi.com/view?r=eyJrIjoiYTg2NjFkODEtMmQ5Ni00NzMwLTgwMWItNzcyZDM2ODc1ODZjIiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
-        </div>
-        
-        <div class="iframe-container">
-            <iframe title="LA Crime Weapons Report" src="https://app.powerbi.com/view?r=eyJrIjoiMDIxNTlmZGEtOWMyMi00ZTcwLTljOTEtNWVkNDNjNTI3ODg1IiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
-        </div>
-        
-        <div class="github-link">
-            <a href="https://github.com/Grant-Hakanson/LA-Crime-Project/tree/main" target="_blank">View Related GitHub Repository</a>
-        </div>
+    <h1>Grant Hakanson Portfolio Snapshots</h1>
+    <p>
+        I’m a data professional with a background in analytics, business intelligence, and process improvement. Throughout my career, I’ve worked across healthcare, telecom, and SaaS, using SQL, Power BI, and Python to enhance reporting, automate workflows, and improve data accessibility.
+    </p>
+    <p>
+        I thrive in collaborative environments where I can solve complex problems and make data more actionable. At Altruis, I streamlined reporting by converting manual Excel reports into Power BI dashboards, cutting workflow time by 50% and improving data transparency. At Communications Data Group, I worked with SQL scripts to update internal billing systems, strengthening my technical skills in database management and data integration. During my time at VividCharts, I partnered with cross-functional teams and Fortune 500 clients to create IT ticketing reports, sharpening my ability to communicate technical insights in a clear and meaningful way.
+    </p>
+    <p>
+        I hold an MBA in Data Analytics from LSUS, which has helped me combine technical expertise with a strategic business perspective. I’m detail-oriented and always looking for ways to improve processes, but I also value collaboration, clear communication, and continuous learning. I’m passionate about making data more accessible and impactful, and I take pride in bridging the gap between technical solutions and business needs.
+    </p>
+    
+    <h2>Crime Metrics Dashboard</h2>
+    <iframe title="Crime Metrics Dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiZTA5ODg2ODUtNTI3Ny00ZDU3LWFiYzgtNzhhNzhkM2RlZTU2IiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
+    
+    <h2>LA Crime Data Explorer</h2>
+    <iframe title="LA Crime Data Explorer" src="https://app.powerbi.com/view?r=eyJrIjoiYTg2NjFkODEtMmQ5Ni00NzMwLTgwMWItNzcyZDM2ODc1ODZjIiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
+    
+    <h2>LA Crime Weapons Report</h2>
+    <iframe title="LA Crime Weapons Report" src="https://app.powerbi.com/view?r=eyJrIjoiMDIxNTlmZGEtOWMyMi00ZTcwLTljOTEtNWVkNDNjNTI3ODg1IiwidCI6ImUyN2Q0ZDM5LTU4MGUtNDIzYS04YTU3LTdiOTY5OWViMGM0YSJ9&embedImagePlaceholder=true" allowFullScreen="true"></iframe>
+    
+    <div class="github-link">
+        <a href="https://github.com/Grant-Hakanson/LA-Crime-Project/tree/main" target="_blank">View Related GitHub Repository</a>
     </div>
 </body>
 </html>
+
